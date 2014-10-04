@@ -12,6 +12,9 @@ static methods for encoding and decoding values using the Base32 alphabet.
 * encode( String ) :: String
 * decodeBinary( Binary ) :: Binary
 
+__Note__: If you use the string-base encoding functions, the strings are currently assumed
+to be in UTF-8 encoding.
+
 
 [bennadel]: http://www.bennadel.com
 [googleplus]: https://plus.google.com/108976367067760160494?rel=author
